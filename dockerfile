@@ -5,4 +5,4 @@ RUN rm -rf /opt/traccar/web
 
 EXPOSE 8082 5000-5150 514
 
-CMD ["sh", "/opt/traccar/bin/startDaemon.sh"]
+# Não definir CMD, use o padrão da imagem oficial
