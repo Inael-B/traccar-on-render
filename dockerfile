@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM traccar/traccar:6.7.1-debian
 
 # Define versão
 ENV TRACCAR_VERSION 5.13
